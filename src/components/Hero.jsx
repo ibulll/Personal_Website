@@ -52,7 +52,7 @@ const Hero = () => {
                 </div>
 
                 <div className={`my-auto transition-all duration-1000 ease-in-out ${animate ? 'opacity-100 transform translate-x-0' : 'opacity-0 transform translate-x-10'}`}>
-                    <img className="w-[300px] sm:w-[450px] mx-auto h-auto rounded-full grayscale transition duration-300 ease-in-out" src={Foto} alt="Profil" />
+                    <img className="w-[300px] sm:w-[450px] mx-auto h-auto rounded-full transition duration-300 ease-in-out" src={Foto} alt="Profil" />
                 </div>
             </div>
         </div>
