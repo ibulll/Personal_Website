@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
+import Swal from 'sweetalert2'; // Import SweetAlert2
 
 const Contact = () => {
   const form = useRef();
@@ -10,10 +11,20 @@ const Contact = () => {
     emailjs.sendForm('service_ujyrigd', 'template_wfoneop', form.current, '6VNLXLbgvp4W2fGxS')
       .then((result) => {
         console.log('Success:', result.text);
-        alert('Message sent successfully!');
+        Swal.fire({
+          title: 'Success!',
+          text: 'Message sent successfully!',
+          icon: 'success',
+          confirmButtonText: 'OK'
+        });
       }, (error) => {
         console.error('Error:', error.text);
-        alert('Failed to send message. Please try again.');
+        Swal.fire({
+          title: 'Error!',
+          text: 'Failed to send message. Please try again.',
+          icon: 'error',
+          confirmButtonText: 'OK'
+        });
       });
   };
 
