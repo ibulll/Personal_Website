@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Foto from '../assets/Foto.jpeg';
+import Foto from '../assets/Foto.png';
 import { AiFillMail, AiFillGithub, AiFillInstagram } from 'react-icons/ai';
 import { TypeAnimation } from 'react-type-animation';
 
