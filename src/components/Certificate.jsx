@@ -9,24 +9,24 @@ const Certificate = () => {
   const [certificates] = useState([
     { 
       id: 1, 
-      name: 'SmkCoding', 
-      issuer: 'Coursera', 
+      name: 'Dicoding',  
+      logo: '/assets/Dicoding.jpeg', // Tambahkan logo di sini
       date: '2022-08-23', 
       img: Certi2, 
       pdf: '/assets/Dicoding.pdf' 
     },
     { 
       id: 2, 
-      name: 'SmkCoding', 
-      issuer: 'Coursera', 
+      name: 'SmkCoding',  
+      logo: '/assets/smkcoding.png', // Tambahkan logo di sini
       date: '2023-10-05', 
       img: Certi1, 
       pdf: '/assets/SmkCoding.pdf' 
     },
     { 
       id: 3, 
-      name: 'SmkCoding', 
-      issuer: 'Coursera', 
+      name: 'Dicoding',  
+      logo: '/assets/Dicoding.jpeg', // Tambahkan logo di sini
       date: '2022-09-16', 
       img: Certi3, 
       pdf: '/assets/Dicoding2.pdf' 
@@ -38,7 +38,7 @@ const Certificate = () => {
       duration: 1000, // Durasi animasi dalam milidetik
     });
   }, []);
-
+  
   return (
     <div className="bg-[#232325] min-h-screen p-6 overflow-hidden" id="certificate">
       <h1 className="text-4xl text-center font-bold text-white mb-6">
@@ -63,8 +63,16 @@ const Certificate = () => {
               data-aos={aosAnimation}
               data-aos-delay={index * 100}
             >
-              <h2 className="text-2xl font-semibold">{certificate.name}</h2>
-              <p className="text-gray-600">Issuer: {certificate.issuer}</p>
+              <div className="flex items-center mb-2">
+                {certificate.logo && (
+                  <img
+                    src={certificate.logo}
+                    alt={`${certificate.name} Logo`}
+                    className="w-8 h-8 mr-2"
+                  />
+                )}
+                <h2 className="text-2xl font-semibold">{certificate.name}</h2>
+              </div>
               <p className="text-gray-600">Date: {certificate.date}</p>
               <div className="relative mt-4">
                 {certificate.img && (

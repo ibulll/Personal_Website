@@ -25,7 +25,7 @@ const About = () => {
                             <h3 className="text-4xl font-semibold mb-5">About<span className="primary-color"> Me</span></h3>
                             <p className="text-justify leading-7 w-11/12 mx-auto">
                             I am a student at SMKN 1 Ciomas majoring in Software Development with a great interest in Programming. I have relevant technical 
-                            skills and project experience and would like to develop further through practical field work.
+                            skills and project experience and would like to develop further through field work.
                             </p>
                         </div>
                     </div>
