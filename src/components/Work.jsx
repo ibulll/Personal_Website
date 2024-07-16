@@ -27,7 +27,7 @@ const Work = () => {
           <h3 className="font-bold mb-3 mt-[1.5rem] text-2xl px-6 text-white">Information System PKL</h3>
           <button
             onClick={() => toggleDescription('project1')}
-            className="px-4 py-2 bg-primary text-white rounded-md mb-3 mx-2"
+            className="px-4 py-2 bg-primary text-white rounded-md mb-3 mx-2 transition-transform duration-300 ease-in-out transform hover:scale-105"
           >
             Description
           </button>
@@ -64,8 +64,8 @@ const Work = () => {
           </div>
           <h3 className="text-white font-bold mb-3 mt-4 text-2xl px-6">My Personal Website</h3>
           <button
-            onClick={() => toggleDescription('project2')}
-            className="px-4 py-2 bg-primary text-white rounded-md mb-3 mx-2"
+            onClick={() => toggleDescription('project1')}
+            className="px-4 py-2 bg-primary text-white rounded-md mb-3 mx-2 transition-transform duration-300 ease-in-out transform hover:scale-105"
           >
             Description
           </button>
@@ -98,8 +98,8 @@ const Work = () => {
           </div>
           <h3 className="font-bold mb-3 mt-6 text-2xl px-6 text-white">Web Store</h3>
           <button
-            onClick={() => toggleDescription('project3')}
-            className="px-4 py-2 bg-primary text-white rounded-md mb-3 mx-2"
+            onClick={() => toggleDescription('project1')}
+            className="px-4 py-2 bg-primary text-white rounded-md mb-3 mx-2 transition-transform duration-300 ease-in-out transform hover:scale-105"
           >
             Description
           </button>
@@ -132,8 +132,8 @@ const Work = () => {
           </div>
           <h3 className="font-bold mb-3 mt-5 text-2xl px-6"></h3>
           <button
-            onClick={() => toggleDescription('project4')}
-            className="px-4 py-2 bg-primary text-white rounded-md mb-3 mx-2"
+            onClick={() => toggleDescription('project1')}
+            className="px-4 py-2 bg-primary text-white rounded-md mb-3 mx-2 transition-transform duration-300 ease-in-out transform hover:scale-105"
           >
             Description
           </button>
