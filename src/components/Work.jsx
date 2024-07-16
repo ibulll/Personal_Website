@@ -10,7 +10,7 @@ const Work = () => {
         {/* Project 1 */}
         <div className="mb-12 lg:w-1/3 border border-primary shadow-primary rounded-md shadow" data-aos="fade-up" data-aos-duration="1000">
           <div className="rounded-md overflow-hidden">
-            <img src="/assets/Project2.jpeg" className="sm:h-full" alt="foto-kelas" width="w-full" />
+            <img src="/assets/Project2.jpeg" className="sm:h-full" alt="Information System PKL" width="w-full" />
           </div>
           <h3 className="font-bold mb-3 mt-[1.5rem] text-2xl px-2 text-white">Information System PKL</h3>
           <p className="font-extralight leading-relaxed tracking-[2px] px-2 text-white">
@@ -18,13 +18,13 @@ const Work = () => {
           </p>
           <div className="flex gap-x-2 px-2">
             <div className="py-4 max-w-16 grayscale hover:grayscale-0 transition duration-300 ease-in-out">
-              <img src="/assets/React-icon.svg.png" alt="react" />
+              <img src="/assets/React-icon.svg.png" alt="React" />
             </div>
             <div className="py-4 max-w-14 grayscale hover:grayscale-0 transition duration-300 ease-in-out">
-              <img src="/assets/Laravel.svg.png" alt="react" />
+              <img src="/assets/Laravel.svg.png" alt="Laravel" />
             </div>
             <div className="py-3 max-w-16 grayscale hover:grayscale-0 transition duration-300 ease-in-out">
-              <img src="/assets/tailwind.svg" alt="react" />
+              <img src="/assets/tailwind.svg" alt="Tailwind" />
             </div>
           </div>
           <div className="my-4 mx-3 mb-7">
@@ -37,7 +37,7 @@ const Work = () => {
         {/* Project 2 */}
         <div className="mb-12 lg:w-1/3 border border-primary shadow-primary rounded-md shadow">
           <div className="rounded-md overflow-hidden ">
-            <img src="/assets/Project1.png" className="h-full" alt="foto-kelas" width="w-full" />
+            <img src="/assets/Project1.png" className="h-full" alt="Personal Web" width="w-full" />
           </div>
           <h3 className="text-white font-bold mb-3 mt-4 text-2xl px-2">My Personal Website</h3>
           <p className="text-white font-extralight leading-relaxed tracking-[2px] px-2">
@@ -45,10 +45,10 @@ const Work = () => {
           </p>
           <div className="flex gap-x-2 px-2 py-2">
             <div className="py-4 max-w-16 grayscale hover:grayscale-0 transition duration-300 ease-in-out">
-              <img src="/assets/React-icon.svg.png" alt="react" />
+              <img src="/assets/React-icon.svg.png" alt="React" />
             </div>
             <div className="py-3 max-w-16 grayscale hover:grayscale-0 transition duration-300 ease-in-out">
-              <img src="/assets/tailwind.svg" alt="react" />
+              <img src="/assets/tailwind.svg" alt="Tailwind" />
             </div>
           </div>
           <div className="my-4 mx-3 mb-7">
@@ -64,13 +64,13 @@ const Work = () => {
             <img src="/assets/Project3.png" className="h-full" alt="Web Store" width="w-full" />
           </div>
           <h3 className="font-bold mb-3 mt-6 text-2xl px-2 text-white">Web Store</h3>
-          <p className="font-extralight leading-relaxed tracking-[2px] px-2 text-white">This project was created to display data on the most popular and newest films or movie. Also this project helped me a lot about ReactJS</p>
+          <p className="font-extralight leading-relaxed tracking-[2px] px-2 text-white">This project is a simple webstore that enables product browsing and checkout. It offers an easy-to-use interface but does not yet include payment integration. The focus is on user-friendly navigation and basic order management.</p>
           <div className="flex gap-x-2 px-2">
             <div className="py-4 max-w-16 grayscale hover:grayscale-0 transition duration-300 ease-in-out">
-              <img src="/assets/Vue.js.svg.png" alt="react" />
+              <img src="/assets/Vue.js.svg.png" alt="Vue" />
             </div>
             <div className="py-3 max-w-16 grayscale hover:grayscale-0 transition duration-300 ease-in-out">
-              <img src="/assets/tailwind.svg" alt="react" />
+              <img src="/assets/tailwind.svg" alt="Tailwind" />
             </div>
           </div>
           <div className="my-4 mx-3 mb-7">
@@ -83,10 +83,10 @@ const Work = () => {
         {/* Project 4 */}
         <div className="mb-12 lg:w-1/3 border border-primary shadow-primary rounded-md shadow" data-aos="fade-up" data-aos-duration="1000">
           <div className="rounded-md overflow-hidden ">
-            <img src="./UIKA-3.png" className="h-full" alt="foto-kelas" width="w-full" />
+            <img src="./UIKA-3.png" className="h-full" alt="" width="w-full" />
           </div>
-          <h3 className="font-bold mb-3 mt-5 text-2xl px-2">University Web Design</h3>
-          <p className="font-extralight leading-relaxed tracking-[2px] px-2">My First Commercial Design for one of the universities in the city of Bogor and really helped improve my design skills, because I learned from the project.</p>
+          <h3 className="font-bold mb-3 mt-5 text-2xl px-2"></h3>
+          <p className="font-extralight leading-relaxed tracking-[2px] px-2"></p>
           <div className="flex gap-x-2 px-2">
             <div className="py-4 max-w-16 grayscale hover:grayscale-0 transition duration-300 ease-in-out px-3">
               <img src="./1667px-Figma-logo.svg.png" alt="react" />
