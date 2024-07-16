@@ -14,7 +14,7 @@ const Work = () => {
           </div>
           <h3 className="font-bold mb-3 mt-[1.5rem] text-2xl px-2 text-white">Information System PKL</h3>
           <p className="font-extralight leading-relaxed tracking-[2px] px-2 text-white">
-            I made this project as a final assignment from my school to create something useful for the school. Finally I thought about creating this information system.
+          This project aims to develop an information system to manage Field Work Practice activities for vocational school students and girls. This system facilitates the management of student data, PKL locations, schedules and final PKL reports. This project was carried out by a team of four people.
           </p>
           <div className="flex gap-x-2 px-2">
             <div className="py-4 max-w-16 grayscale hover:grayscale-0 transition duration-300 ease-in-out">
@@ -28,7 +28,7 @@ const Work = () => {
             </div>
           </div>
           <div className="my-4 mx-3 mb-7">
-            <a href="https://hafidz-movie-list.vercel.app/" target="_blank" rel="noopener noreferrer" className="px-7 py-3 mx-3 bg-primary font-medium text-lg rounded-md hover:bg-secondary bg-cyan-600 hover:bg-primary">
+            <a href="/" target="_blank" rel="noopener noreferrer" className="px-7 py-3 mx-3 bg-primary font-medium text-lg rounded-md hover:bg-secondary bg-cyan-600 hover:bg-primary">
               Lihat
             </a>
           </div>
@@ -41,7 +41,7 @@ const Work = () => {
           </div>
           <h3 className="text-white font-bold mb-3 mt-4 text-2xl px-2">My Personal Website</h3>
           <p className="text-white font-extralight leading-relaxed tracking-[2px] px-2">
-            Welcome to my personal website! As a student at SMK, this site showcases my journey, projects, and skills. Explore to learn more about my academic achievements, technical skills, and personal interests. This platform serves as a digital portfolio of my growth and experiences throughout my time at SMK.
+          Welcome to my personal website! As an SMK student, this site highlights my journey, projects, and skills. Discover my academic achievements, technical skills, and personal interests here. This platform serves as a digital portfolio showcasing my growth and experiences at SMK.
           </p>
           <div className="flex gap-x-2 px-2 py-2">
             <div className="py-4 max-w-16 grayscale hover:grayscale-0 transition duration-300 ease-in-out">
@@ -52,7 +52,7 @@ const Work = () => {
             </div>
           </div>
           <div className="my-4 mx-3 mb-7">
-            <a href="https://twinkyxipplgthree.pages.dev/" target="_blank" rel="noopener noreferrer" className="px-7 py-3 bg-primary font-medium text-lg rounded-md bg-cyan-600 hover:bg-primary">
+            <a href="https://ilhamardhanmas-portofolio.vercel.app/" target="_blank" rel="noopener noreferrer" className="px-7 py-3 bg-primary font-medium text-lg rounded-md bg-cyan-600 hover:bg-primary">
               Lihat
             </a>
           </div>
@@ -74,7 +74,7 @@ const Work = () => {
             </div>
           </div>
           <div className="my-4 mx-3 mb-7">
-            <a href="https://hafidz-movie-list.vercel.app/" target="_blank" rel="noopener noreferrer" className="px-7 py-3 bg-primary font-medium text-lg rounded-md bg-cyan-600 hover:bg-primary">
+            <a href="/" target="_blank" rel="noopener noreferrer" className="px-7 py-3 bg-primary font-medium text-lg rounded-md bg-cyan-600 hover:bg-primary">
               Lihat
             </a>
           </div>
@@ -93,51 +93,7 @@ const Work = () => {
             </div>
           </div>
           <div className="my-4 mx-3 mb-7">
-            <a href="https://hafidz-movie-list.vercel.app/" target="_blank" rel="noopener noreferrer" className="px-7 py-3 bg-primary font-medium text-lg rounded-md hover:shadow-primary hover:shadow-lg">
-              Lihat
-            </a>
-          </div>
-        </div>
-
-        {/* Project 5 */}
-        <div className="mb-12 lg:w-1/3 border border-primary shadow-primary rounded-md shadow" data-aos="fade-up" data-aos-duration="1000">
-          <div className="rounded-md overflow-hidden ">
-            <img src="./newss.png" className="xl:h-[31vh] md:h-full" alt="foto-kelas" width="w-full" />
-          </div>
-          <h3 className="font-bold mb-3 mt-5 text-2xl px-2">List worldwide news</h3>
-          <p className="font-extralight leading-relaxed tracking-[2px] px-2">This website is Api&apos;s consumption of a News Api website which provides all the news in the world</p>
-          <div className="flex gap-x-2 px-2">
-            <div className="py-4 max-w-16 grayscale hover:grayscale-0 transition duration-300 ease-in-out">
-              <img src="./React-icon.svg.png" alt="react" />
-            </div>
-            <div className="py-3 max-w-16 grayscale hover:grayscale-0 transition duration-300 ease-in-out">
-              <img src="./tailwind.svg" alt="react" />
-            </div>
-          </div>
-          <div className="my-4 mx-3 mb-7">
-            <a href="https://hafidz-movie-list.vercel.app/" target="_blank" rel="noopener noreferrer" className="px-7 py-3 bg-primary font-medium text-lg rounded-md hover:shadow-primary hover:shadow-lg">
-              Lihat
-            </a>
-          </div>
-        </div>
-        
-        {/* Project 6 (Duplicate of Project 5?) */}
-        <div className="mb-12 lg:w-1/3 border border-primary shadow-primary rounded-md shadow" data-aos="fade-up" data-aos-duration="1000">
-          <div className="rounded-md overflow-hidden ">
-            <img src="./newss.png" className="xl:h-[31vh] md:h-full" alt="foto-kelas" width="w-full" />
-          </div>
-          <h3 className="font-bold mb-3 mt-5 text-2xl px-2">List worldwide news</h3>
-          <p className="font-extralight leading-relaxed tracking-[2px] px-2">This website is Api&apos;s consumption of a News Api website which provides all the news in the world</p>
-          <div className="flex gap-x-2 px-2">
-            <div className="py-4 max-w-16 grayscale hover:grayscale-0 transition duration-300 ease-in-out">
-              <img src="./React-icon.svg.png" alt="react" />
-            </div>
-            <div className="py-3 max-w-16 grayscale hover:grayscale-0 transition duration-300 ease-in-out">
-              <img src="./tailwind.svg" alt="react" />
-            </div>
-          </div>
-          <div className="my-4 mx-3 mb-7">
-            <a href="https://hafidz-movie-list.vercel.app/" target="_blank" rel="noopener noreferrer" className="px-7 py-3 bg-primary font-medium text-lg rounded-md hover:shadow-primary hover:shadow-lg">
+            <a href="/" target="_blank" rel="noopener noreferrer" className="px-7 py-3 bg-primary font-medium text-lg rounded-md hover:shadow-primary hover:shadow-lg">
               Lihat
             </a>
           </div>
