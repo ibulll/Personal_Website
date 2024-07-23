@@ -40,7 +40,7 @@ const Hero = () => {
                     <div className="relative inline-flex group my-3 z-20">
                         <div className="absolute transition-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44bcff] via-[#ff44ec] to-[#ff675e] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200"></div>
                         <a
-                            href="/assets/CV.pdf"
+                            href="/assets/CV Muhammad Ilham Ardhanmas.pdf"
                             download
                             title="Download CV"
                             role="button"
