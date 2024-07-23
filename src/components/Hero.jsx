@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Foto from '../assets/Foto.png';
 import { AiFillMail, AiFillGithub, AiFillInstagram } from 'react-icons/ai';
 import { TypeAnimation } from 'react-type-animation';
+import CV from '../../public/assets/CV Muhammad Ilham Ardhanmas.pdf';
 
 const Hero = () => {
     const [animate, setAnimate] = useState(false);
@@ -40,7 +41,7 @@ const Hero = () => {
                     <div className="relative inline-flex group my-3 z-20">
                         <div className="absolute transition-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44bcff] via-[#ff44ec] to-[#ff675e] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200"></div>
                         <a
-                            href="/assets/CV Muhammad Ilham Ardhanmas.pdf"
+                            href={CV}
                             download
                             title="Download CV"
                             role="button"
